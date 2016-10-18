@@ -1,0 +1,39 @@
+{
+  "extends": "airbnb-base",
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true,
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+  },
+  "rules": {
+    "quotes": [2, "single", {"avoidEscape": true}],
+    "semi": [2, "never"],
+    "no-unused-vars": ["error", { "vars": "all", "args": "after-used", "varsIgnorePattern": "PropTypes" }],
+    "global-require": 0,
+    "quote-props": [2, "as-needed"],
+    "max-len": [1, 120],
+    "no-unused-expressions": [2, { "allowShortCircuit": true, "allowTernary": true }],
+    "no-confusing-arrow": 0,
+    "no-use-before-define": [2, { "functions": true }],
+    "no-param-reassign": ["error", { "props": false }],
+    "consistent-return": 0,
+    "no-restricted-syntax": [2, "WithStatement"],
+    "no-continue": 0,
+    "babel/arrow-parens": 0,
+    "generator-star-spacing": 0,
+    "brace-style": [2, "stroustrup", { "allowSingleLine": true }],
+    "curly": [2, "all"],
+    "no-multiple-empty-lines": [1, { "max": 1 }],
+    "no-mixed-operators": [0]
+  },
+  "parser": "babel-eslint",
+  "settings": {
+    "import/resolve": {
+      "moduleDirectory": ["node_modules", "src"],
+    },
+  }
+}

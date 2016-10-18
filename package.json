@@ -1,0 +1,40 @@
+{
+  "name": "mask-gen",
+  "version": "0.1.0",
+  "description": "Beauty generator random string by simple mask",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lestad/gen-mask.js.git"
+  },
+  "keywords": [
+    "generator",
+    "mask",
+    "random",
+    "uuid",
+    "guid",
+    "version",
+    "gen"
+  ],
+  "author": "Sergey Sova <i.am@lestad.net> (https://lestad.top)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/lestad/gen-mask.js/issues"
+  },
+  "homepage": "https://github.com/lestad/gen-mask.js#readme",
+  "devDependencies": {
+    "babel-eslint": "^7.0.0",
+    "eslint": "^3.8.1",
+    "eslint-config-airbnb-base": "^9.0.0",
+    "eslint-plugin-import": "^2.0.1",
+    "jest": "^16.0.1",
+    "jest-cli": "^16.0.1"
+  },
+  "dependencies": {
+    "deepmerge": "^1.2.0"
+  }
+}
