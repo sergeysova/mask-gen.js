@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/lestad/gen-mask.js.git"
   },
+  "engines": {
+    "node": ">= 6"
+  },
   "keywords": [
     "generator",
     "mask",

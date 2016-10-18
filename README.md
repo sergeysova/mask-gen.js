@@ -1,5 +1,11 @@
 # Mask-Gen
 
+[![Build Status](https://travis-ci.org/LestaD/mask-gen.js.svg?branch=master)](https://travis-ci.org/LestaD/mask-gen.js)
+[![npm](https://img.shields.io/npm/v/mask-gen.svg?maxAge=2592000)](https://npmjs.com/mask-gen)
+[![Minimum node](https://img.shields.io/badge/engines-node%20%3E%3D%206-green.svg)](https://github.com/LestaD/mask-gen/blob/master/package.json)
+
+[![NPM](https://nodei.co/npm/mask-gen.png?compact=true)](https://nodei.co/npm/mask-gen/)
+
 Beauty generator
 
 ## Usage
