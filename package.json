@@ -1,6 +1,6 @@
 {
   "name": "mask-gen",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Beauty generator random string by simple mask",
   "main": "src/index.js",
   "scripts": {
