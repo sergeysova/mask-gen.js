@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lestad/gen-mask.js.git"
+    "url": "git+https://github.com/LestaD/gen-mask.js.git"
   },
   "engines": {
     "node": ">= 6"
@@ -26,9 +26,9 @@
   "author": "Sergey Sova <i.am@lestad.net> (https://lestad.top)",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/lestad/gen-mask.js/issues"
+    "url": "https://github.com/LestaD/gen-mask.js/issues"
   },
-  "homepage": "https://github.com/lestad/gen-mask.js#readme",
+  "homepage": "https://github.com/LestaD/gen-mask.js#usage",
   "devDependencies": {
     "babel-eslint": "^7.0.0",
     "eslint": "^3.8.1",
